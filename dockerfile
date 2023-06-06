@@ -1,4 +1,4 @@
 FROM node:latest
 COPY . /app-node
-RUN npm i
+RUN npm install
 ENTRYPOINT npm start
